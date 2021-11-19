@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTimePicker?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="720.0" prefWidth="1080.0" style="-fx-background-color: #dbd5ce;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.ModifierExcursionController">
+   <children>
+      <ComboBox fx:id="idModifier" layoutX="217.0" layoutY="232.0" prefHeight="25.0" prefWidth="174.0" />
+      <Label layoutX="203.0" layoutY="212.0" text="Id a modifier" />
+      <TextField fx:id="txtCapacite" layoutX="217.0" layoutY="302.0" />
+      <TextField fx:id="txtNom" layoutX="217.0" layoutY="354.0" />
+      <TextField fx:id="txtDescription" layoutX="217.0" layoutY="410.0" />
+      <TextField fx:id="txtImg" layoutX="217.0" layoutY="463.0" />
+      <TextField fx:id="txtDepart" layoutX="540.0" layoutY="319.0" />
+      <TextField fx:id="txtDestination" layoutX="540.0" layoutY="375.0" />
+      <Label layoutX="203.0" layoutY="276.0" text="Capacite" />
+      <Label layoutX="210.0" layoutY="279.0" />
+      <Label layoutX="196.0" layoutY="390.0" text="Description" />
+      <Label layoutX="205.0" layoutY="336.0" text="nom" />
+      <Label layoutX="201.0" layoutY="448.0" text="Image" />
+      <ComboBox fx:id="txtType" layoutX="540.0" layoutY="254.0" prefHeight="40.0" prefWidth="150.0" />
+      <Label layoutX="532.0" layoutY="228.0" text="type" />
+      <Label layoutX="526.0" layoutY="297.0" text="depart" />
+      <Label layoutX="526.0" layoutY="354.0" text="destination" />
+      <JFXTimePicker fx:id="txtHeure" layoutX="561.0" layoutY="456.0" />
+      <DatePicker fx:id="txtDate" layoutX="549.0" layoutY="502.0" />
+      <Label layoutX="556.0" layoutY="448.0" text="heure debut" />
+      <Label layoutX="498.0" layoutY="506.0" text="date" />
+      <Button fx:id="modifier" layoutX="212.0" layoutY="515.0" mnemonicParsing="false" onAction="#modifier" prefHeight="40.0" prefWidth="98.0" style="-fx-background-color: #f8521b;" text="Modifier" textFill="WHITE" />
+      <Button fx:id="select" layoutX="370.0" layoutY="460.0" mnemonicParsing="false" onAction="#select" prefHeight="25.0" prefWidth="78.0" style="-fx-background-color: #f8521b;" text="Select" textFill="WHITE" />
+      <Button fx:id="backEVT" layoutX="20.0" layoutY="12.0" mnemonicParsing="false" onAction="#backEVT" style="-fx-background-color: #f8521b;" text="&lt;- Back" textFill="WHITE" />
+   </children>
+</AnchorPane>

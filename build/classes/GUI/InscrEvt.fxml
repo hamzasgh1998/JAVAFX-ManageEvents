@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="720.0" prefWidth="1080.0" style="-fx-background-color: #dbd5ce;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.InscrEvtController">
+   <children>
+      <JFXComboBox fx:id="txtEvt" layoutX="337.0" layoutY="306.0" prefHeight="44.0" prefWidth="277.0" />
+      <Label layoutX="191.0" layoutY="78.0" prefHeight="141.0" prefWidth="543.0" text="Liste des Evenements">
+         <font>
+            <Font size="56.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="Inscrire" layoutX="334.0" layoutY="360.0" onAction="#inscrire" prefHeight="44.0" prefWidth="104.0" style="-fx-background-color: #f8521b;" text="S'inscrire" textFill="WHITE" />
+      <JFXButton fx:id="Annuler" layoutX="462.0" layoutY="360.0" onAction="#Annuler" prefHeight="44.0" prefWidth="136.0" style="-fx-background-color: #f8521b;" text="Abondonner" textFill="WHITE" />
+      <ImageView fx:id="imageview" fitHeight="150.0" fitWidth="200.0" layoutX="386.0" layoutY="73.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>

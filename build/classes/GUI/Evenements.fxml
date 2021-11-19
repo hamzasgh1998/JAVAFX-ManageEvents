@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="720.0" prefWidth="1080.0" style="-fx-background-color: #dbd5ce;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.EvenementsController">
+   <children>
+      <Button fx:id="fete" layoutX="383.0" layoutY="191.0" mnemonicParsing="false" onAction="#fete" prefHeight="80.0" prefWidth="305.0" style="-fx-background-color: #f8521b;" text="Fete" textFill="WHITE">
+         <font>
+            <Font size="37.0" />
+         </font>
+      </Button>
+      <Button fx:id="excursion" layoutX="391.0" layoutY="360.0" mnemonicParsing="false" onAction="#excursion" prefHeight="64.0" prefWidth="298.0" style="-fx-background-color: #f8521b;" text="Excursion" textFill="WHITE">
+         <font>
+            <Font size="37.0" />
+         </font>
+      </Button>
+      <Text layoutX="398.0" layoutY="86.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Evenements" wrappingWidth="328.125">
+         <font>
+            <Font size="46.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
